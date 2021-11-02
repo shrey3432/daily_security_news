@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  background-image: url("bg2.jpg");
+  background-size: contain;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+
+h1{
+  font-weight: bolder;
+  text-align: center;
+  background-color: white;
+}
+
+div{
+  padding: 3px;
+  text-align: justify;
+}
+
+a{
+  padding: 10px;
+}
+/* unvisited link */
+a:link {
+ color: white;
+ background-color: black;
+}
+
+/* visited link */
+a:visited {
+ color: red;
+ background-color: black;
+}
+
+/* mouse over link */
+a:hover {
+ color: white;
+ background-color: black;
+ font-size: 20px;
+ opacity: 0.5;
+
+}
+
+/* selected link */
+a:active {
+ color: hotpink;
+ background-color: black;
+}
